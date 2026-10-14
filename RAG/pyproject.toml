@@ -1,0 +1,14 @@
+
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Local PDF RAG Assistant"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit",
+    "pymupdf",
+    "chromadb",
+    "sentence-transformers",
+    "requests",
+    "torchvision>=0.29.1",
+]
